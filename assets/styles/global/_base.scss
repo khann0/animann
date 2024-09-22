@@ -1,0 +1,8 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $bg-main;
+    @include mainFont(400, 14, $white, 18.9);
+}
